@@ -1,4 +1,4 @@
-# Design Document for ESP32 OTA Update with MQTT
+# Design Document for ESP32 OTA Firmware Update with MQTT
 
 ## Overview
 This project involves implementing Over-the-Air (OTA) firmware updates on an ESP32, with the added functionality of reporting progress via MQTT. The ESP32 will listen for commands from an MQTT broker to trigger OTA updates, download firmware, and then apply it. The progress of the update will be reported back to the broker via MQTT, providing real-time feedback.
