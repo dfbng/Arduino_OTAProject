@@ -32,6 +32,8 @@ void setup() {
 
     mqttClient.connect(); // Connect to MQTT broker
     mqttClient.subscribe("device/ota/start"); // Subscribe to topic to listen for OTA start command
+    // Set a timeout for the OTA update (in milliseconds) before starting the update
+    otaHandler.setTimeout(60000);
 }
 
 void loop() {
