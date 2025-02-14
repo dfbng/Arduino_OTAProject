@@ -1,4 +1,4 @@
-# ESP32 OTA Update with MQTT Integration
+# ESP32 OTA Firmware Update with MQTT Integration
 
 This project demonstrates how to use Over-the-Air (OTA) firmware updates on an ESP32 using MQTT for progress reporting and managing OTA updates remotely. The system connects to a WiFi network, listens for OTA update commands via MQTT, and performs firmware updates. Progress is reported back to the MQTT broker.
 
